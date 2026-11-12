@@ -1,0 +1,5 @@
+$login= $_POST["haslo"];
+$password = sha1( $_POST["haslo"]);
+$sql = "insert into MyGuests (login, password)
+    VALUES ('$name', 'password')";
+    
